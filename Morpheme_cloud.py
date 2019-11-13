@@ -6,6 +6,9 @@ import re
 
 tagger = Kkma()
 
+def flat(content):
+    return ["{}/{}".format(word,tag) for word, tag in tagger.pos(content)]
+
 rsc = r'D:\Programming\python\창회선배스터디\Morpheme_Cloud\자료\토지2.txt'
 
 #텍스트 태깅 작업
@@ -13,9 +16,17 @@ tagged_list = []
 with open(rsc, 'r', encoding="utf8") as kr_f:
     for line in kr_f:
         line = line.strip()
-        print(line[:30])
-        tagged_list += tagger.pos(line)
+        tagged_list += flat(line)
 
+for i in tagged_list:
+    if '/V' in i:
+        i = i.replace('/V','다/V')
+        tagged_list.append(tuple(i.split('/')))
+    elif '/A' in i:
+        i.replace('/A','다/A')
+        tagged_list.append(tuple(i.split('/')))
+    else:
+        tagged_list.append(tuple(i.split('/')))
 
 #내용어 리스트 생성
 word_freq_d = defaultdict(int)

@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a76b971-9cd2-4040-8b13-582cc1b62e9d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Morpheme_cloud.py" beforeDir="false" afterPath="$PROJECT_DIR$/Morpheme_cloud.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/자료/08_keyword_kr.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/자료/08_keyword_kr.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/자료/토지2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/자료/토지2.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -88,7 +87,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

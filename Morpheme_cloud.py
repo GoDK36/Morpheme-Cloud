@@ -13,12 +13,13 @@ rsc = r'D:\Programming\python\창회선배스터디\Morpheme_Cloud\자료\토지
 
 #텍스트 태깅 작업
 tagged_temp = []
+
 with open(rsc, 'r', encoding="utf8") as kr_f:
     for line in kr_f:
         line = line.strip()
         tagged_temp += flat(line)
 
-print(tagged_temp)
+print(tagged_temp[:60])
 
 tagged_list = []
 
@@ -32,7 +33,7 @@ for i in tagged_temp:
     else:
         tagged_list.append(tuple(i.split('/')))
 
-print(tagged_list)
+print(tagged_list[:60])
 
 #내용어 리스트 생성
 word_freq_d = defaultdict(int)

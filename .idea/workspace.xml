@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="4a76b971-9cd2-4040-8b13-582cc1b62e9d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Morpheme_cloud.py" beforeDir="false" afterPath="$PROJECT_DIR$/Morpheme_cloud.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/자료/토지2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/자료/토지2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Word_cloud.py" beforeDir="false" afterPath="$PROJECT_DIR$/Word_cloud.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -41,7 +40,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Morpheme_cloud">
+  <component name="RunManager" selected="Python.Word_cloud">
     <configuration name="Morpheme_cloud" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Morpheme_Cloud" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -86,8 +85,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Morpheme_cloud" />
         <item itemvalue="Python.Word_cloud" />
+        <item itemvalue="Python.Morpheme_cloud" />
       </list>
     </recent_temporary>
   </component>

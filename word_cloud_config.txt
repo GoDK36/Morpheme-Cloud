@@ -1,0 +1,19 @@
+wordcloud.WordCloud()
+
+1. font_path = "문자열" : 사용되는 폰트의 경로(.OTF 혹은 .TTF)
+2. width =  숫자(기본값=400) : 캔버스의 너비
+3. height = 숫자(기본값 = 200) : 캔버스의 높이
+4. prefer_horiozontal = 1보다 작은 수(기본값:0.90) : 정해준 값과 맞지 않으면 단어 회전을 시도합니다.
+5. mask = "" : wordcloud의 형태를 설정
+6. background_color = 색상값 : 배경색 설정
+7. min_font_size = 숫자 : 사용할 가장 작은 글꼴 크기
+
+예시
+wordcloud.WordCloud(font_path=r"C:\WINDOWS\Fonts\HYBDAL.TTF",
+		     width=400,
+		     height=200,
+		     prefer_horizontal=0.9999
+		     mask=star_mask, #star_mask = np.array(Image.open("star_mask.png")) 형태로 들어가야함. 이를 위해 numpy필요.
+		     background_color = "white",
+		     min_font_size =1)
+ 
